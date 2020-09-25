@@ -1,0 +1,785 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		394AB897328A6BB6EF02DE7A /* Pods_streamflowUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CEC783F4D3CB496A35759C2 /* Pods_streamflowUITests.framework */; };
+		641DA8AE23E961AE00093F10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641DA8AD23E961AE00093F10 /* AppDelegate.swift */; };
+		641DA8B023E961AE00093F10 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641DA8AF23E961AE00093F10 /* SceneDelegate.swift */; };
+		641DA8B223E961AE00093F10 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641DA8B123E961AE00093F10 /* ContentView.swift */; };
+		641DA8B423E961B000093F10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 641DA8B323E961B000093F10 /* Assets.xcassets */; };
+		641DA8B723E961B000093F10 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 641DA8B623E961B000093F10 /* Preview Assets.xcassets */; };
+		641DA8BA23E961B000093F10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 641DA8B823E961B000093F10 /* LaunchScreen.storyboard */; };
+		641DA8C523E961B000093F10 /* streamflowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641DA8C423E961B000093F10 /* streamflowTests.swift */; };
+		641DA8D023E961B000093F10 /* streamflowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641DA8CF23E961B000093F10 /* streamflowUITests.swift */; };
+		641DA8DE23E9700000093F10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 641DA8DD23E9700000093F10 /* Main.storyboard */; };
+		641DA8E023E9736D00093F10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641DA8DF23E9736D00093F10 /* ViewController.swift */; };
+		64282F842413479900DAA5C9 /* TimeSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64282F832413479900DAA5C9 /* TimeSetting.swift */; };
+		64C6C5D9241C8CC300A0742D /* TimeSliderBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C6C5D8241C8CC300A0742D /* TimeSliderBar.swift */; };
+		64C6C5DB241C9C6500A0742D /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C6C5DA241C9C6500A0742D /* PageViewController.swift */; };
+		64C6C5DD241C9E7C00A0742D /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C6C5DC241C9E7C00A0742D /* HomePageView.swift */; };
+		64C6C5E9241CAADC00A0742D /* TimeSilderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C6C5E7241CAADC00A0742D /* TimeSilderView.swift */; };
+		64C6C5EA241CAADC00A0742D /* TimeSilderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64C6C5E8241CAADC00A0742D /* TimeSilderView.xib */; };
+		64D7233F2401492C004D3F52 /* RequestFeatureUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D7233E2401492C004D3F52 /* RequestFeatureUtil.swift */; };
+		64D7234124016D42004D3F52 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D7234024016D42004D3F52 /* DetailViewController.swift */; };
+		67CBAD05425F73FD53AB1ACA /* Pods_streamflow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DB9587E8C4BE5F09CF34DC1 /* Pods_streamflow.framework */; };
+		FB614EA54EE70B37E9D7ED62 /* Pods_streamflowTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A1B65046A4F266A39445AEE /* Pods_streamflowTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		641DA8C123E961B000093F10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 641DA8A223E961AE00093F10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 641DA8A923E961AE00093F10;
+			remoteInfo = streamflow;
+		};
+		641DA8CC23E961B000093F10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 641DA8A223E961AE00093F10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 641DA8A923E961AE00093F10;
+			remoteInfo = streamflow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01027F7AE35929E509683764 /* Pods-streamflowUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-streamflowUITests.release.xcconfig"; path = "Target Support Files/Pods-streamflowUITests/Pods-streamflowUITests.release.xcconfig"; sourceTree = "<group>"; };
+		01F954DE36AFBEB2505DB821 /* Pods-streamflow-streamflowUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-streamflow-streamflowUITests.debug.xcconfig"; path = "Target Support Files/Pods-streamflow-streamflowUITests/Pods-streamflow-streamflowUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1DB9587E8C4BE5F09CF34DC1 /* Pods_streamflow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_streamflow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		220532E0A79EA593A5995C14 /* Pods-streamflowTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-streamflowTests.debug.xcconfig"; path = "Target Support Files/Pods-streamflowTests/Pods-streamflowTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3C4AE4B85E49C005651B4115 /* Pods-streamflowUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-streamflowUITests.debug.xcconfig"; path = "Target Support Files/Pods-streamflowUITests/Pods-streamflowUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		641DA8AA23E961AE00093F10 /* streamflow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = streamflow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		641DA8AD23E961AE00093F10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		641DA8AF23E961AE00093F10 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		641DA8B123E961AE00093F10 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		641DA8B323E961B000093F10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		641DA8B623E961B000093F10 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		641DA8B923E961B000093F10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		641DA8BB23E961B000093F10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		641DA8C023E961B000093F10 /* streamflowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = streamflowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		641DA8C423E961B000093F10 /* streamflowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = streamflowTests.swift; sourceTree = "<group>"; };
+		641DA8C623E961B000093F10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		641DA8CB23E961B000093F10 /* streamflowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = streamflowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		641DA8CF23E961B000093F10 /* streamflowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = streamflowUITests.swift; sourceTree = "<group>"; };
+		641DA8D123E961B000093F10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		641DA8DD23E9700000093F10 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		641DA8DF23E9736D00093F10 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		64282F832413479900DAA5C9 /* TimeSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSetting.swift; sourceTree = "<group>"; };
+		64C6C5D8241C8CC300A0742D /* TimeSliderBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSliderBar.swift; sourceTree = "<group>"; };
+		64C6C5DA241C9C6500A0742D /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		64C6C5DC241C9E7C00A0742D /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
+		64C6C5E7241CAADC00A0742D /* TimeSilderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSilderView.swift; sourceTree = "<group>"; };
+		64C6C5E8241CAADC00A0742D /* TimeSilderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimeSilderView.xib; sourceTree = "<group>"; };
+		64D7233E2401492C004D3F52 /* RequestFeatureUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestFeatureUtil.swift; sourceTree = "<group>"; };
+		64D7234024016D42004D3F52 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		762DD209A2044E44D27525C7 /* Pods-streamflowTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-streamflowTests.release.xcconfig"; path = "Target Support Files/Pods-streamflowTests/Pods-streamflowTests.release.xcconfig"; sourceTree = "<group>"; };
+		7A1B65046A4F266A39445AEE /* Pods_streamflowTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_streamflowTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CEC783F4D3CB496A35759C2 /* Pods_streamflowUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_streamflowUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CEF88AD340865BAF20DCD92 /* Pods-streamflow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-streamflow.release.xcconfig"; path = "Target Support Files/Pods-streamflow/Pods-streamflow.release.xcconfig"; sourceTree = "<group>"; };
+		B222F50981C7A128FD26C666 /* Pods-streamflow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-streamflow.debug.xcconfig"; path = "Target Support Files/Pods-streamflow/Pods-streamflow.debug.xcconfig"; sourceTree = "<group>"; };
+		DD7AD329F836FCBFD8BF6035 /* Pods-streamflow-streamflowUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-streamflow-streamflowUITests.release.xcconfig"; path = "Target Support Files/Pods-streamflow-streamflowUITests/Pods-streamflow-streamflowUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		641DA8A723E961AE00093F10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67CBAD05425F73FD53AB1ACA /* Pods_streamflow.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		641DA8BD23E961B000093F10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB614EA54EE70B37E9D7ED62 /* Pods_streamflowTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		641DA8C823E961B000093F10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				394AB897328A6BB6EF02DE7A /* Pods_streamflowUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		641DA8A123E961AE00093F10 = {
+			isa = PBXGroup;
+			children = (
+				641DA8AC23E961AE00093F10 /* streamflow */,
+				641DA8C323E961B000093F10 /* streamflowTests */,
+				641DA8CE23E961B000093F10 /* streamflowUITests */,
+				641DA8AB23E961AE00093F10 /* Products */,
+				929C38CB82180081914A9363 /* Pods */,
+				BF4424F00BF145A36B71716E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		641DA8AB23E961AE00093F10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				641DA8AA23E961AE00093F10 /* streamflow.app */,
+				641DA8C023E961B000093F10 /* streamflowTests.xctest */,
+				641DA8CB23E961B000093F10 /* streamflowUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		641DA8AC23E961AE00093F10 /* streamflow */ = {
+			isa = PBXGroup;
+			children = (
+				64C6C5DE241C9FB200A0742D /* testSwiftUI */,
+				641DA8AD23E961AE00093F10 /* AppDelegate.swift */,
+				641DA8AF23E961AE00093F10 /* SceneDelegate.swift */,
+				641DA8B123E961AE00093F10 /* ContentView.swift */,
+				641DA8B323E961B000093F10 /* Assets.xcassets */,
+				641DA8B823E961B000093F10 /* LaunchScreen.storyboard */,
+				641DA8BB23E961B000093F10 /* Info.plist */,
+				641DA8B523E961B000093F10 /* Preview Content */,
+				641DA8DD23E9700000093F10 /* Main.storyboard */,
+				641DA8DF23E9736D00093F10 /* ViewController.swift */,
+				64D7233E2401492C004D3F52 /* RequestFeatureUtil.swift */,
+				64D7234024016D42004D3F52 /* DetailViewController.swift */,
+				64282F832413479900DAA5C9 /* TimeSetting.swift */,
+				64C6C5E7241CAADC00A0742D /* TimeSilderView.swift */,
+				64C6C5E8241CAADC00A0742D /* TimeSilderView.xib */,
+			);
+			path = streamflow;
+			sourceTree = "<group>";
+		};
+		641DA8B523E961B000093F10 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				641DA8B623E961B000093F10 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		641DA8C323E961B000093F10 /* streamflowTests */ = {
+			isa = PBXGroup;
+			children = (
+				641DA8C423E961B000093F10 /* streamflowTests.swift */,
+				641DA8C623E961B000093F10 /* Info.plist */,
+			);
+			path = streamflowTests;
+			sourceTree = "<group>";
+		};
+		641DA8CE23E961B000093F10 /* streamflowUITests */ = {
+			isa = PBXGroup;
+			children = (
+				641DA8CF23E961B000093F10 /* streamflowUITests.swift */,
+				641DA8D123E961B000093F10 /* Info.plist */,
+			);
+			path = streamflowUITests;
+			sourceTree = "<group>";
+		};
+		64C6C5DE241C9FB200A0742D /* testSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				64C6C5D8241C8CC300A0742D /* TimeSliderBar.swift */,
+				64C6C5DA241C9C6500A0742D /* PageViewController.swift */,
+				64C6C5DC241C9E7C00A0742D /* HomePageView.swift */,
+			);
+			path = testSwiftUI;
+			sourceTree = "<group>";
+		};
+		929C38CB82180081914A9363 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B222F50981C7A128FD26C666 /* Pods-streamflow.debug.xcconfig */,
+				8CEF88AD340865BAF20DCD92 /* Pods-streamflow.release.xcconfig */,
+				01F954DE36AFBEB2505DB821 /* Pods-streamflow-streamflowUITests.debug.xcconfig */,
+				DD7AD329F836FCBFD8BF6035 /* Pods-streamflow-streamflowUITests.release.xcconfig */,
+				220532E0A79EA593A5995C14 /* Pods-streamflowTests.debug.xcconfig */,
+				762DD209A2044E44D27525C7 /* Pods-streamflowTests.release.xcconfig */,
+				3C4AE4B85E49C005651B4115 /* Pods-streamflowUITests.debug.xcconfig */,
+				01027F7AE35929E509683764 /* Pods-streamflowUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BF4424F00BF145A36B71716E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DB9587E8C4BE5F09CF34DC1 /* Pods_streamflow.framework */,
+				7A1B65046A4F266A39445AEE /* Pods_streamflowTests.framework */,
+				7CEC783F4D3CB496A35759C2 /* Pods_streamflowUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		641DA8A923E961AE00093F10 /* streamflow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 641DA8D423E961B000093F10 /* Build configuration list for PBXNativeTarget "streamflow" */;
+			buildPhases = (
+				9F9E0FF2BCE63723068BDFDF /* [CP] Check Pods Manifest.lock */,
+				641DA8A623E961AE00093F10 /* Sources */,
+				641DA8A723E961AE00093F10 /* Frameworks */,
+				641DA8A823E961AE00093F10 /* Resources */,
+				907A62A7E48D049FE7ED5378 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = streamflow;
+			productName = streamflow;
+			productReference = 641DA8AA23E961AE00093F10 /* streamflow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		641DA8BF23E961B000093F10 /* streamflowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 641DA8D723E961B000093F10 /* Build configuration list for PBXNativeTarget "streamflowTests" */;
+			buildPhases = (
+				8780F146BAEB355A8D0291B6 /* [CP] Check Pods Manifest.lock */,
+				641DA8BC23E961B000093F10 /* Sources */,
+				641DA8BD23E961B000093F10 /* Frameworks */,
+				641DA8BE23E961B000093F10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				641DA8C223E961B000093F10 /* PBXTargetDependency */,
+			);
+			name = streamflowTests;
+			productName = streamflowTests;
+			productReference = 641DA8C023E961B000093F10 /* streamflowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		641DA8CA23E961B000093F10 /* streamflowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 641DA8DA23E961B000093F10 /* Build configuration list for PBXNativeTarget "streamflowUITests" */;
+			buildPhases = (
+				3B57BAC487BC267F813A913C /* [CP] Check Pods Manifest.lock */,
+				641DA8C723E961B000093F10 /* Sources */,
+				641DA8C823E961B000093F10 /* Frameworks */,
+				641DA8C923E961B000093F10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				641DA8CD23E961B000093F10 /* PBXTargetDependency */,
+			);
+			name = streamflowUITests;
+			productName = streamflowUITests;
+			productReference = 641DA8CB23E961B000093F10 /* streamflowUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		641DA8A223E961AE00093F10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "周煜杰";
+				TargetAttributes = {
+					641DA8A923E961AE00093F10 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					641DA8BF23E961B000093F10 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 641DA8A923E961AE00093F10;
+					};
+					641DA8CA23E961B000093F10 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 641DA8A923E961AE00093F10;
+					};
+				};
+			};
+			buildConfigurationList = 641DA8A523E961AE00093F10 /* Build configuration list for PBXProject "streamflow" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 641DA8A123E961AE00093F10;
+			productRefGroup = 641DA8AB23E961AE00093F10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				641DA8A923E961AE00093F10 /* streamflow */,
+				641DA8BF23E961B000093F10 /* streamflowTests */,
+				641DA8CA23E961B000093F10 /* streamflowUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		641DA8A823E961AE00093F10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				641DA8BA23E961B000093F10 /* LaunchScreen.storyboard in Resources */,
+				641DA8B723E961B000093F10 /* Preview Assets.xcassets in Resources */,
+				641DA8B423E961B000093F10 /* Assets.xcassets in Resources */,
+				64C6C5EA241CAADC00A0742D /* TimeSilderView.xib in Resources */,
+				641DA8DE23E9700000093F10 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		641DA8BE23E961B000093F10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		641DA8C923E961B000093F10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3B57BAC487BC267F813A913C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-streamflowUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8780F146BAEB355A8D0291B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-streamflowTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		907A62A7E48D049FE7ED5378 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-streamflow/Pods-streamflow-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-streamflow/Pods-streamflow-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-streamflow/Pods-streamflow-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F9E0FF2BCE63723068BDFDF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-streamflow-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		641DA8A623E961AE00093F10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64282F842413479900DAA5C9 /* TimeSetting.swift in Sources */,
+				641DA8AE23E961AE00093F10 /* AppDelegate.swift in Sources */,
+				641DA8B023E961AE00093F10 /* SceneDelegate.swift in Sources */,
+				641DA8B223E961AE00093F10 /* ContentView.swift in Sources */,
+				64C6C5E9241CAADC00A0742D /* TimeSilderView.swift in Sources */,
+				64C6C5DD241C9E7C00A0742D /* HomePageView.swift in Sources */,
+				64D7233F2401492C004D3F52 /* RequestFeatureUtil.swift in Sources */,
+				64C6C5D9241C8CC300A0742D /* TimeSliderBar.swift in Sources */,
+				64C6C5DB241C9C6500A0742D /* PageViewController.swift in Sources */,
+				641DA8E023E9736D00093F10 /* ViewController.swift in Sources */,
+				64D7234124016D42004D3F52 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		641DA8BC23E961B000093F10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				641DA8C523E961B000093F10 /* streamflowTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		641DA8C723E961B000093F10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				641DA8D023E961B000093F10 /* streamflowUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		641DA8C223E961B000093F10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 641DA8A923E961AE00093F10 /* streamflow */;
+			targetProxy = 641DA8C123E961B000093F10 /* PBXContainerItemProxy */;
+		};
+		641DA8CD23E961B000093F10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 641DA8A923E961AE00093F10 /* streamflow */;
+			targetProxy = 641DA8CC23E961B000093F10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		641DA8B823E961B000093F10 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				641DA8B923E961B000093F10 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		641DA8D223E961B000093F10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		641DA8D323E961B000093F10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		641DA8D523E961B000093F10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B222F50981C7A128FD26C666 /* Pods-streamflow.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"streamflow/Preview Content\"";
+				DEVELOPMENT_TEAM = WHX5F24X34;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = streamflow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tech.dianhan.streamflow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		641DA8D623E961B000093F10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CEF88AD340865BAF20DCD92 /* Pods-streamflow.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"streamflow/Preview Content\"";
+				DEVELOPMENT_TEAM = WHX5F24X34;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = streamflow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tech.dianhan.streamflow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		641DA8D823E961B000093F10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 220532E0A79EA593A5995C14 /* Pods-streamflowTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = streamflowTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tech.dianhan.streamflowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/streamflow.app/streamflow";
+			};
+			name = Debug;
+		};
+		641DA8D923E961B000093F10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 762DD209A2044E44D27525C7 /* Pods-streamflowTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = streamflowTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tech.dianhan.streamflowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/streamflow.app/streamflow";
+			};
+			name = Release;
+		};
+		641DA8DB23E961B000093F10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C4AE4B85E49C005651B4115 /* Pods-streamflowUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = streamflowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tech.dianhan.streamflowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = streamflow;
+			};
+			name = Debug;
+		};
+		641DA8DC23E961B000093F10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01027F7AE35929E509683764 /* Pods-streamflowUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = streamflowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tech.dianhan.streamflowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = streamflow;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		641DA8A523E961AE00093F10 /* Build configuration list for PBXProject "streamflow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				641DA8D223E961B000093F10 /* Debug */,
+				641DA8D323E961B000093F10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		641DA8D423E961B000093F10 /* Build configuration list for PBXNativeTarget "streamflow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				641DA8D523E961B000093F10 /* Debug */,
+				641DA8D623E961B000093F10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		641DA8D723E961B000093F10 /* Build configuration list for PBXNativeTarget "streamflowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				641DA8D823E961B000093F10 /* Debug */,
+				641DA8D923E961B000093F10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		641DA8DA23E961B000093F10 /* Build configuration list for PBXNativeTarget "streamflowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				641DA8DB23E961B000093F10 /* Debug */,
+				641DA8DC23E961B000093F10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 641DA8A223E961AE00093F10 /* Project object */;
+}

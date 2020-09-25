@@ -1,0 +1,38 @@
+PODS:
+  - ArcGIS-Runtime-SDK-iOS (100.7)
+  - ArcGIS-Runtime-Toolkit-iOS (100.7.0):
+    - ArcGIS-Runtime-SDK-iOS (~> 100.7.0)
+  - Charts (3.4.0):
+    - Charts/Core (= 3.4.0)
+  - Charts/Core (3.4.0)
+  - SVProgressHUD (2.2.6)
+
+DEPENDENCIES:
+  - ArcGIS-Runtime-Toolkit-iOS (~> 100.7)
+  - Charts
+  - SVProgressHUD (from `https://github.com/SVProgressHUD/SVProgressHUD.git`)
+
+SPEC REPOS:
+  trunk:
+    - ArcGIS-Runtime-SDK-iOS
+    - ArcGIS-Runtime-Toolkit-iOS
+    - Charts
+
+EXTERNAL SOURCES:
+  SVProgressHUD:
+    :git: https://github.com/SVProgressHUD/SVProgressHUD.git
+
+CHECKOUT OPTIONS:
+  SVProgressHUD:
+    :commit: 4fdf3fdc8703fd9915dae33fc1363c604a06b24e
+    :git: https://github.com/SVProgressHUD/SVProgressHUD.git
+
+SPEC CHECKSUMS:
+  ArcGIS-Runtime-SDK-iOS: 9a7e227d6779eaa16119b170b4e7861b02f5d83a
+  ArcGIS-Runtime-Toolkit-iOS: bdee32cfffade727b2c5c2ded1a92dcdc3912a8f
+  Charts: 74c9f256eaf0460c0c416522d1cf8c634ea6b286
+  SVProgressHUD: 6ed134667e9ebb2f33679e8273cd48fd3fa349e5
+
+PODFILE CHECKSUM: 731c60d076f22430addcea064007244bd12b286c
+
+COCOAPODS: 1.8.4
